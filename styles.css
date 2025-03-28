@@ -1,0 +1,35 @@
+table {
+  width: 60%;
+}
+
+th, td {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+th:not(:nth-child(2)),
+td:not(:nth-child(2)) {
+  background-color: rgb(240, 240, 240); /* Серый цвет для первой колонки */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  background-color: rgb(220, 236, 241); /* Голубой цвет для второй колонки */
+}
+
+td:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+}
+
+span{
+  color: green;
+}
+
+.red-bg{
+  background-color: rgb(241, 220, 220) !important;
+}
+
+.green-bg{
+  background-color: rgb(222, 241, 220) !important;
+}
