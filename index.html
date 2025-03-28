@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table id="financeTable">
+        <thead>
+            <tr>
+                <th>Показатель</th>
+                <th>Текущий день</th>
+                <th>Вчера</th>
+                <th>Этот день недели</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Выручка, руб</td>
+                <td>500 521</td>
+                <td>480 521 <span></span></td>
+                <td>4 805 121</td>
+            </tr>
+            <tr>
+                <td>Наличные </td>
+                <td>300 000</td>
+                <td>300 000 <span></span></td>
+                <td>300 000</td>
+            </tr>
+            <tr>
+                <td>Безналичный рассчёт</td>
+                <td>100 000</td>
+                <td>100 000 <span></span></td>
+                <td>100 000</td>
+            </tr>
+            <tr>
+                <td>Кредитные карты</td>
+                <td>100 521</td>
+                <td>100 521 <span></span></td>
+                <td>100 521</td>
+            </tr>
+            <tr>
+                <td>Средний чек, руб</td>
+                <td>1300</td>
+                <td>900 <span></span></td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>Средний гость, руб</td>
+                <td>1200</td>
+                <td>800 <span></span></td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Удаление из чека (после оплаты), руб</td>
+                <td>1000</td>
+                <td>1100 <span></span></td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>Удаление из чека (до оплаты), руб</td>
+                <td>1300</td>
+                <td>1300 <span></span></td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>Количество чеков</td>
+                <td>34</td>
+                <td>36 <span></span></td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Количество гостей</td>
+                <td>34</td>
+                <td>36 <span></span></td>
+                <td>32</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="container" style="height: 400px; margin: 0 auto"></div>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
